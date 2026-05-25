@@ -693,6 +693,7 @@ func _update_responsive_sizes() -> void:
 
 	var dashboard_fullscreen: bool = dashboard_mode and is_compact_fullscreen_ui
 	var tablet_portrait: bool = _is_tablet_portrait_size(available_size)
+	var desktop_wide_fullscreen: bool = is_compact_fullscreen_ui and not portrait and available_width >= 1280.0
 	var font_scale: float = 0.34 if dashboard_fullscreen else (0.20 if dashboard_mode else (0.18 if (is_compact_fullscreen_ui and tablet_portrait) else (0.20 if (is_compact_fullscreen_ui and portrait) else (0.32 if is_compact_fullscreen_ui else (0.15 if portrait else 0.18)))))
 	var min_size: int = 136 if dashboard_fullscreen else (72 if dashboard_mode else (96 if (is_compact_fullscreen_ui and portrait) else (132 if is_compact_fullscreen_ui else (64 if portrait else 76))))
 	var max_size: int = 500 if dashboard_fullscreen else (180 if dashboard_mode else (220 if (is_compact_fullscreen_ui and tablet_portrait) else (240 if (is_compact_fullscreen_ui and portrait) else (500 if is_compact_fullscreen_ui else (200 if portrait else 260)))))
@@ -706,7 +707,9 @@ func _update_responsive_sizes() -> void:
 	timer_label.add_theme_font_size_override("font_size", font_size)
 	var label_width_max: float = maxf(220.0, available_width - (24.0 if portrait else 72.0))
 	var desired_width: float = available_width * (0.94 if portrait else (0.90 if dashboard_fullscreen else (0.92 if dashboard_mode else 0.90)))
-	var label_width: float = clampf(desired_width, minf(300.0, label_width_max), minf(980.0, label_width_max))
+	# A desktop 16:9 fullscreen view has room for larger digits than the panel layout.
+	var timer_width_cap: float = 1220.0 if desktop_wide_fullscreen else 980.0
+	var label_width: float = clampf(desired_width, minf(300.0, label_width_max), minf(timer_width_cap, label_width_max))
 	font_size = mini(font_size, int(label_width / (5.35 if portrait else 5.05)))
 	timer_label.add_theme_font_size_override("font_size", font_size)
 	var min_height: float = 200.0 if dashboard_fullscreen else (92.0 if dashboard_mode else (150.0 if (is_compact_fullscreen_ui and portrait) else (190.0 if is_compact_fullscreen_ui else (120.0 if portrait else 140.0))))
