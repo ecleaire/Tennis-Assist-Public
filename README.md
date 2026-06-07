@@ -1,11 +1,5 @@
-# WRO RoboSports Assist
-
-![Godot](https://img.shields.io/badge/Godot-4.6.2-478CBF?logo=godotengine&logoColor=white)
-![Web](https://img.shields.io/badge/Platform-Web-2ea44f)
-![PWA](https://img.shields.io/badge/PWA-Supported-8A2BE2)
-![Offline](https://img.shields.io/badge/Offline-Supported-orange)
 # ⚠️ このリポジトリは旧版です
-## 現在は軽量化・機能改善を行った最新版「Tennis Assist Web」を開発しています
+## 現在は軽量化・機能改善を行った最新版「RoboSports Assist」を開発しています
 ## 最新版はこちら
 # Repository：
 ## https://github.com/ecleaire/Tennis-Assist-Web
@@ -31,6 +25,13 @@
 
 ---
 
+# WRO RoboSports Assist
+
+![Godot](https://img.shields.io/badge/Godot-4.6.2-478CBF?logo=godotengine&logoColor=white)
+![Web](https://img.shields.io/badge/Platform-Web-2ea44f)
+![PWA](https://img.shields.io/badge/PWA-Supported-8A2BE2)
+![Offline](https://img.shields.io/badge/Offline-Supported-orange)
+---
 WRO RoboSports Double Tennis の大会運営・選手の練習をサポートする Godot 製アプリです。
 
 選手は本番さながらの練習環境を構築でき、大会スタッフや審判はタイマー管理から試合記録・集計までをタブレット、PC、スマートフォン上で行えます。
