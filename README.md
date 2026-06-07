@@ -4,6 +4,32 @@
 ![Web](https://img.shields.io/badge/Platform-Web-2ea44f)
 ![PWA](https://img.shields.io/badge/PWA-Supported-8A2BE2)
 ![Offline](https://img.shields.io/badge/Offline-Supported-orange)
+# ⚠️ このリポジトリは旧版です
+## 現在は軽量化・機能改善を行った最新版「Tennis Assist Web」を開発しています
+## 最新版はこちら
+# Repository：
+## https://github.com/ecleaire/Tennis-Assist-Web
+# Web App：
+## https://ecleaire.github.io/Tennis-Assist-Web/
+
+
+---
+
+> [!IMPORTANT]
+> 本リポジトリは、Godot Web Export ベースで開発していた旧版アーカイブです。
+> 現在は TypeScript + Vite ベースの Web 版へ移行しています。
+>
+> 最新版では、
+>
+> * 初期読み込み速度改善
+> * スマートフォン動作改善
+> * 軽量化
+> * UI改善
+> * Google Apps Script 連携強化
+>
+> などを行っています。
+
+---
 
 WRO RoboSports Double Tennis の大会運営・選手の練習をサポートする Godot 製アプリです。
 
@@ -11,10 +37,10 @@ WRO RoboSports Double Tennis の大会運営・選手の練習をサポートす
 
 タイマー、ボール配置ランダマイザー、試合記録、ルール確認、ニュース、リンク集などの機能をブラウザ上で利用できます。初回起動時は少し時間がかかる場合があります。
 
-## Web 版
+## 公開URL
 
 https://ecleaire.github.io/Tennis-Assist-Public/
-
+GitHub Pages で公開しています。
 ## 搭載機能
 
 - 試合タイマー
