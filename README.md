@@ -3,9 +3,14 @@
 ## 最新版はこちら
 # Repository：
 ## https://github.com/ecleaire/Tennis-Assist-Web
-# Web App：
-## https://ecleaire.github.io/Tennis-Assist-Web/
+# Web App：  
+# 大会 審判用
 
+# https://ecleaire.github.io/Tennis-Assist-Web/
+
+# 選手 練習用 / general
+
+# https://ecleaire.github.io/Tennis-Assist-Web/general/
 
 ---
 
