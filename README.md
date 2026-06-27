@@ -129,11 +129,6 @@ GitHub Pages で公開しています。
 - GDScript
 - GitHub Pages
 
-## 開発支援
-
-- ChatGPT
-- OpenAI Codex
-- VOICEVOX
 
 ## フィードバック / バグ報告
 
@@ -141,7 +136,29 @@ GitHub Pages で公開しています。
 
 機能提案や改善案、運営向けアイデアなども Discussions にて歓迎しています。
 
-## ライセンスと素材
+## ライセンス / クレジット
+### 使用素材
+ #### 本アプリでは、以下の素晴らしい素材を利用しています。公開してくださっている制作者の皆さまに心より感謝いたします。
+- Noto Sans JP（日本語フォント）  
+  公式サイト: https://fonts.google.com/share?selection.family=Noto+Sans+JP:wght@100..900  
+- DSEG（7セグメントフォント）  
+　タイマー表示に使用しています。  
+　公式サイト: https://www.keshikan.net/fonts.html  
+　GitHub: https://github.com/keshikan/DSEG  
+- 効果音ラボ（システム音声・効果音）  
+　案内音声やシステム効果音の一部に使用しています。  
+　公式サイト: https://soundeffect-lab.info/
+ 
+- WRO、RoboSports、競技ルールに関する正式な情報は WRO 公式サイトを参照してください。  
+ 
+- 開発支援: OpenAI ChatGPT / Codex  
+---
 
-- 数字表示には DSEG フォントを使用しています。ライセンスは `assets/fonts/fonts-DSEG_v046/DSEG-LICENSE.txt` を確認してください。
-- 日本語 UI には Noto Sans JP を使用しています。ライセンスは `assets/fonts/Noto_Sans_JP/OFL.txt` を確認してください。
+# Thank you
+
+最後まで README をご覧いただき、ありがとうございます。  
+このプロジェクトが RoboSports Double Tennis に関わる選手・審判・大会運営の皆さまのお役に立てれば幸いです。  
+バグ報告や改善提案はもちろん、「こんな機能があると便利」といったアイデアも歓迎しています。  
+
+皆さまからのフィードバックをもとに、これからも継続して改善・開発を進めていきます。  
+
